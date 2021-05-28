@@ -1,0 +1,9 @@
+language: java
+jdk:
+  - openjdk11
+notifications:
+  email:
+    recipients:
+      - claudio@claudioaltamura.de
+    on_success: always # default: change
+on_failure: always # default: always
