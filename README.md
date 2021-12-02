@@ -5,6 +5,10 @@
 # kotlin-spring-boot-rest
 Kotlin Spring Boot example
 
+# start service
+
+    ./gradlew bootRUn
+
 # run the example
 
     curl http://localhost:8080
