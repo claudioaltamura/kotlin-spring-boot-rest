@@ -1,4 +1,4 @@
-package de.claudioaltamura.kotlinspringbootrest
+package de.claudioaltamura.kotlin.springboot.rest
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication

@@ -1,4 +1,4 @@
-package de.claudioaltamura.kotlinspringbootrest
+package de.claudioaltamura.kotlin.springboot.rest
 
 import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.RequestBody

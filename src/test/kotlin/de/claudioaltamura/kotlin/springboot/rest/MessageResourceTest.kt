@@ -1,4 +1,4 @@
-package de.claudioaltamura.kotlinspringbootrest
+package de.claudioaltamura.kotlin.springboot.rest
 
 import org.junit.jupiter.api.Test
 import org.skyscreamer.jsonassert.JSONAssert
