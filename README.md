@@ -7,7 +7,7 @@ Kotlin Spring Boot example
 
 # start service
 
-    ./gradlew bootRUn
+    ./gradlew bootRun
 
 # run the example
 
