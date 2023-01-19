@@ -12,3 +12,7 @@ Kotlin Spring Boot example
 # run the example
 
     curl http://localhost:8080
+
+# H2 console
+
+    http://localhost:8080/h2-console  
