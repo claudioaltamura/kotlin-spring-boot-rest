@@ -5,6 +5,8 @@
 # kotlin-spring-boot-rest
 Kotlin Spring Boot example
 
+https://kotlinlang.org/docs/jvm-get-started-spring-boot.html
+
 # start service
 
     ./gradlew bootRun
