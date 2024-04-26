@@ -16,15 +16,11 @@ jobs:
         uses: actions/setup-java@v4
         with:
           java-version: 21
-      - name: Cache Gradle packages
-        uses: actions/cache@v4
-        with:
-          path: |
-            ~/.gradle/caches
-            ~/.gradle/wrapper
-          key: ${{ runner.os }}-gradle-${{ hashFiles('**/*.gradle*', '**/gradle-wrapper.properties') }}
-          restore-keys: |
-            ${{ runner.os }}-gradle-
+          distribution: 'temurin'
+          cache: 'gradle'
+          cache-dependency-path: | # optional
+            ~/*.gradle*
+            ~/**/gradle-wrapper.properties
       - name: Grant execute permission for gradlew
         run: chmod +x gradlew
       - name: Build with Gradle
